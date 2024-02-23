@@ -11,15 +11,20 @@ namespace KopalniaSobota
         public string nazwa;
         public double punkty=1;
         int tier;
-        string[] nazwy = { "Stone", "Lead", "Copper", "Alluminium", "Iron", "Steel","Stainless steel", "Tytanowe", "Wolframowe", "Diamentowe" };
+        public string currentImage;
+        string[] nazwy = { "Stone", "Lead", "Copper", "Alluminium", "Iron", "Steel","Stainless steel", "Titan", "Tungsten","Tugsten carbide", "Diamond" };
         string[] tiers = { "", "Ulepszone", "Zaawansowane", "Lepsze", "Epickie", "Legendarne", "Mityczne" };
         string[] images = { 
-            "https://raw.githubusercontent.com/bartex100/Mine-Clicker/main/blades/stone.png",
-            "https://raw.githubusercontent.com/bartex100/Mine-Clicker/main/blades/lead.png",
-            "https://raw.githubusercontent.com/bartex100/Mine-Clicker/main/blades/copper.png",
-            "https://raw.githubusercontent.com/bartex100/Mine-Clicker/main/blades/allum.png",
-            "https://raw.githubusercontent.com/bartex100/Mine-Clicker/main/blades/iron.png",
-            "https://raw.githubusercontent.com/bartex100/Mine-Clicker/main/blades/steel.png"
+            "https://raw.githubusercontent.com/bartex100/Mine-Clicker/Assets/blades/stone.png",
+            "https://raw.githubusercontent.com/bartex100/Mine-Clicker/Assets/blades/lead.png",
+            "https://raw.githubusercontent.com/bartex100/Mine-Clicker/Assets/blades/copper.png",
+            "https://raw.githubusercontent.com/bartex100/Mine-Clicker/Assets/blades/allum.png",
+            "https://raw.githubusercontent.com/bartex100/Mine-Clicker/Assets/blades/iron.png",
+            "https://raw.githubusercontent.com/bartex100/Mine-Clicker/Assets/blades/steel.png",
+            "https://raw.githubusercontent.com/bartex100/Mine-Clicker/Assets/blades/stainless.png",
+            "https://raw.githubusercontent.com/bartex100/Mine-Clicker/Assets/blades/titan.png",
+            "https://raw.githubusercontent.com/bartex100/Mine-Clicker/Assets/blades/tungsten.png",
+            "https://raw.githubusercontent.com/bartex100/Mine-Clicker/Assets/blades/carbide.png"
 
         };
         int upgrades = 0;
