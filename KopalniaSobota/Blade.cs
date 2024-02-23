@@ -15,6 +15,7 @@ namespace KopalniaSobota
         string[] nazwy = { "Stone", "Lead", "Copper", "Alluminium", "Iron", "Steel","Stainless steel", "Titan", "Tungsten","Tugsten carbide", "Diamond" };
         string[] tiers = { "", "Ulepszone", "Zaawansowane", "Lepsze", "Epickie", "Legendarne", "Mityczne" };
         string[] images = { 
+            "",
             "https://raw.githubusercontent.com/bartex100/Mine-Clicker/Assets/blades/stone.png",
             "https://raw.githubusercontent.com/bartex100/Mine-Clicker/Assets/blades/lead.png",
             "https://raw.githubusercontent.com/bartex100/Mine-Clicker/Assets/blades/copper.png",
@@ -24,7 +25,8 @@ namespace KopalniaSobota
             "https://raw.githubusercontent.com/bartex100/Mine-Clicker/Assets/blades/stainless.png",
             "https://raw.githubusercontent.com/bartex100/Mine-Clicker/Assets/blades/titan.png",
             "https://raw.githubusercontent.com/bartex100/Mine-Clicker/Assets/blades/tungsten.png",
-            "https://raw.githubusercontent.com/bartex100/Mine-Clicker/Assets/blades/carbide.png"
+            "https://raw.githubusercontent.com/bartex100/Mine-Clicker/Assets/blades/carbide.png",
+            "https://raw.githubusercontent.com/bartex100/Mine-Clicker/Assets/blades/diamond.png"
 
         };
         int upgrades = 0;
@@ -42,6 +44,7 @@ namespace KopalniaSobota
                 punkty = punkty * 1.5;
                 pickLevel++;
                 nazwa = tiers[tier] +" "+nazwy[pickLevel];
+                currentImage = images[pickLevel];
             }
             else
             {
