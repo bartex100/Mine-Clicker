@@ -3,7 +3,7 @@ namespace KopalniaSobota
     public partial class Form1 : Form
     {
         Blade Blade = new Blade();
-        double points=0;
+        double points=9999999;
         public Form1()
         {
             InitializeComponent();

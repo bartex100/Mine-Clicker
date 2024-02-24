@@ -76,7 +76,7 @@
             // 
             button2.Location = new Point(189, 12);
             button2.Name = "button2";
-            button2.Size = new Size(137, 55);
+            button2.Size = new Size(137, 87);
             button2.TabIndex = 3;
             button2.Text = "Ulepszenie ostrza:\r\nKamienne\r\n50$";
             button2.UseVisualStyleBackColor = true;
@@ -95,7 +95,7 @@
             // 
             // button3
             // 
-            button3.Location = new Point(188, 73);
+            button3.Location = new Point(189, 105);
             button3.Name = "button3";
             button3.Size = new Size(137, 55);
             button3.TabIndex = 5;

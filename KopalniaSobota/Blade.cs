@@ -13,7 +13,7 @@ namespace KopalniaSobota
         int tier;
         public string currentImage;
         string[] nazwy = { "Stone", "Lead", "Copper", "Alluminium", "Iron", "Steel","Stainless steel", "Titan", "Tungsten","Tugsten carbide", "Diamond" };
-        string[] tiers = { "", "Ulepszone", "Zaawansowane", "Lepsze", "Epickie", "Legendarne", "Mityczne" };
+        string[] tiers = { "", "Upgraded", "Advanced", "Better", "Epic", "Legendary", "Mithical" };
         string[] images = { 
             "",
             "https://raw.githubusercontent.com/bartex100/Mine-Clicker/Assets/blades/stone.png",
@@ -29,7 +29,6 @@ namespace KopalniaSobota
             "https://raw.githubusercontent.com/bartex100/Mine-Clicker/Assets/blades/diamond.png"
 
         };
-        int upgrades = 0;
 
 
         public int PointsPerClick
@@ -38,7 +37,7 @@ namespace KopalniaSobota
         }
         public void upBladeLevel()
         {
-            if (nazwy[pickLevel] != "Diamentowe")
+            if (nazwy[pickLevel] != "Diamond")
             {
                 cena = cena * 1.6;
                 punkty = punkty * 1.5;
